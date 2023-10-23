@@ -2,8 +2,8 @@ const ButtonComponents = (props) => {
     return(
     <>
    
-        <label>{props.ButtonText}</label>
-        <button>Click</button>
+        <label>{props.ButtonLabel}</label>
+        <button>{props.ButtonText}</button>
     
     </>
     )
