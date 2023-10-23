@@ -20,7 +20,9 @@ function App() {
           Learn React
         </a>
         <div>
-          <ButtonComponents ButtonText="Click here"/>
+          <ButtonComponents ButtonLabel='Click me' ButtonText="Click here"/>
+          <ButtonComponents ButtonLabel='Click me' ButtonText="Click here"/>
+          <ButtonComponents ButtonLabel='Click me' ButtonText="Click here"/>
           <Image Immagine='http://placekitten.com/100/100'/>
         </div>
       </header>
